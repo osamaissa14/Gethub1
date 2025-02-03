@@ -48,6 +48,53 @@
           minlength="8"
         />
         <br /><br />
+        <label for="gendar">gendar : </label><br />
+
+        <input type="radio" name="gendar" id="gendar" value="1" />female
+        <br />
+
+        <input type="radio" name="gendar" id="gendar" value="0" />male
+        <br /><br />
+        <label for="Skills">Skills</label>
+        <input
+          type="checkbox"
+          name="Skills"
+          id="Skills"
+          value="0"
+          checked
+        />HTML
+        <input type="checkbox" name="Skills" id="Skills" value="1" checked />CSS
+        <input type="checkbox" name="Skills" id="Skills" value="2" />JS
+        <input type="checkbox" name="Skills" id="Skills" value="3" />React
+        <input type="checkbox" name="Skills" id="Skills" value="4" />NodeJS
+        <br /><br />
+        <label for="country">Country</label>
+        <select name="country" id="country" multiple>
+          <option value="jordan">jordan</option>
+          <option value="palistine">palistine</option>
+          <option value="egypt">egypt</option>
+          <option value="syria">syria</option>
+          <option value="UEA">UEA</option>
+          <option value="KSA">KSA</option>
+        </select>
+
+        <br /><br />
+        <input type="text" list="country" id="country">
+        <datalist id="country">
+            <option value="jordan">jordan</option>
+            <option value="palistine">palistine</option>
+            <option value="egypt">egypt</option>
+            <option value="syria">syria</option>
+            <option value="UEA">UEA</option>
+            <option value="KSA">KSA</option>
+
+
+
+        </datalist>
+
+
+
+        <br><br>
         <input type="submit" />
       </form>
     </div>
