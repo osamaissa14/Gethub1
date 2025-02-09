@@ -1,0 +1,33 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    border: 2px solid rgb(110, 15, 15);
+}
+
+
+#a{
+    margin: 20px;
+}
+
+
+#d{
+padding: 30px;
+
+}
+
+#section1{
+    height: 100vh;
+    padding: 10px;
+    
+
+}
+img{
+width: 40vw;
+margin: 10px;
+
+}
+#a1{
+    width: 60vw;
+    margin: 10px;
+}
