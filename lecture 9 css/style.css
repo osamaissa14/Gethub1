@@ -1,0 +1,88 @@
+/* *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box; 
+} */
+
+.nav{
+    display: flex;
+    border: 2px solid;
+    background-color: rgb(186, 20, 20);
+    padding: 20px;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    
+}
+button{
+    background: none;
+    border: 0px;
+    color: white;
+    font-weight: bolder;
+    
+}
+div{
+    padding: 10px;
+    margin: 10px;
+}
+.perant{
+    
+    border: 2px solid black;
+}
+.os{
+    border: 2px solid rgb(12, 228, 145);
+    display: flex;
+    gap: 10px;
+        /* align-items: center; */
+        /* justify-content: center; */
+    }
+    .child{
+        
+        border: 2px solid red;
+        
+        flex-basis: 320px;
+        flex: 1;
+        
+    }
+    .childa{
+        
+        border: 2px solid red;
+        
+        flex-basis: 320px;
+        flex: 3;
+        
+    }
+    .am{
+        display: flex;
+        border: 2px solid rgb(9, 9, 9);
+        flex:2;
+        gap: 10px;
+    }
+.o2{
+    border: 2ox solid yellow;
+    display: flex;
+    flex: 2;
+    gap: 10px;
+}
+.hh{
+    flex: 1;
+    gap: 15px;
+}
+        .child1{
+            display: flex;
+            flex: 1;
+            border: 2px solid rgb(127, 218, 7);
+
+        }
+  
+        .bb{
+            border: 2px solid rgb(91, 7, 208);
+            
+        }
