@@ -40,8 +40,6 @@ div{
     border: 2px solid rgb(12, 228, 145);
     display: flex;
     gap: 10px;
-        /* align-items: center; */
-        /* justify-content: center; */
     }
     .child{
         
