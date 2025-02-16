@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: none;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  height: 100vh;
+  background: #222;
+}
+
+.small-sidebar {
+  width: 60px;
+  background: #111;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 15px;
+}
+
+.icon {
+  padding: 20px;
+  font-size: 20px;
+}
+.large-sidebar {
+  width: 300px;
+  background: #1a1a1a;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.top-section {
+  padding: 15px;
+  border-bottom: 1px solid #444;
+  text-align: center;
+  font-weight: bold;
+}
+
+.chat-list {
+  flex: 1;
+  overflow-y: auto;
+}
+
+.chat-item {
+  padding: 15px;
+  border-bottom: 1px solid #444;
+  cursor: pointer;
+  display: flex;
+  gap: 5px;
+}
+
+.main-content {
+  flex: 1;
+  background: #222;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 24px;
+}
+.chat-item img {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+
+.flex-colom {
+  display: flex;
+  justify-content: space-between;
+  gap: 150px;
+}
+.flex-row {
+  display: flex;
+  justify-content: space-between;
+}
+.headchats {
+  display: flex;
+  justify-content: space-between;
+}
