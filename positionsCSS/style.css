@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    width: 100vw;
+    opacity: 0.5;
+
+}
+
+.text{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    position: absolute;
+    top: 0;
+    left: 20px;
+    flex-direction: column;
+
+}

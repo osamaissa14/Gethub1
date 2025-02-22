@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  color: white;
+}
+.headnav {
+  background-color: rgb(110, 102, 102);
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  height: 40px;
+  gap: 30px;
+}
+
+.headnav a {
+  text-decoration: none;
+}
+button {
+  background: none;
+  height: 30px;
+}
+
+.headnave .homenav {
+  display: flex;
+}
+.headnave .lognav {
+  display: flex;
+}
+
+.perants {
+    border: 2px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 100px;
+      margin-left: 250px;
+      width: 100vh;
+      height: 100px;
+      overflow: scroll;
+      
+  }
+  .child {
+    border: 2px solid red;
+    background-color: rgb(172, 7, 7);
+    height: 100px;
+    flex: 1 1 150px;
+    
+  }
+/* .backgroundvid{
+    display: flex;
+    min-height:100vh ;
+    
+
+} */
+
