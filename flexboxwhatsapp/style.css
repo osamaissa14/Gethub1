@@ -9,20 +9,23 @@
 body {
   font-family: Arial, sans-serif;
   display: flex;
-  height: 100vh;
-  background: #222;
+  background-color: black;
+  flex-wrap: wrap;
 }
 
 .main {
   display: flex;
-  height: 100vh;
-  width: 100%;
-  
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  width: 80%;
+  margin-top: 100px;
 }
 
 .side {
   display: flex;
   height: 100%;
+  margin-left: 200px;
 }
 
 .small-sidebar {
@@ -34,20 +37,24 @@ body {
   padding-top: 15px;
   max-width: 40px;
 }
-.icon{
+
+.icon {
   font-size: 18px;
   padding: 10px;
+  cursor: pointer;
 }
 
-  .large-sidebar {
-    width: 300px;
-    background: #1a1a1a;
-    display: flex;
-    flex-direction: column;
-    overflow-y: auto;
-    flex-shrink: 0;
-  }
-.headchats{
+.large-sidebar {
+  width: 300px;
+  background: #1a1a1a;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  flex-shrink: 0;
+  flex-wrap: wrap; 
+}
+
+.headchats {
   display: flex;
   justify-content: space-between;
   height: 30px;
@@ -64,40 +71,44 @@ body {
   align-items: center;
   gap: 10px;
   padding: 15px;
+  justify-content: space-between;
   border-bottom: 1px solid #444;
   cursor: pointer;
 }
-
+.details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
 .chat-item img {
   height: 40px;
   width: 40px;
   border-radius: 50%;
 }
+
 .flex-colom {
   display: flex;
-  justify-content: space-between;
-  gap: 135px;
-}
-.flex-row {
-  display: flex;
-  justify-content: space-between;
-}
+  flex-direction: column;
+ gap: 5px;
+  
 
+}
 
 .main-content {
   flex: 1;
   display: flex;
   flex-direction: column;
   height: 100%;
-  width: 100%;
+  /* width: 100%; */
 }
 
 nav {
   display: flex;
-  gap: 30px;
-  padding: 10px;
-  background-color:#333333;
+  background-color: #333333;
   align-items: center;
+  padding: 5px;
+  gap: 20px;
 }
 
 nav img {
@@ -111,11 +122,12 @@ nav img {
   flex-direction: column;
   padding: 20px;
   overflow-y: auto;
-  background: url("media/ts7vuoswhwf41.webp") no-repeat center center/cover;
+  background: url("media/ts7vuoswhwf41.webp") no-repeat center/cover;
 }
 
 .sent,
 .received {
+  display: flex;
   width: fit-content;
   padding: 10px;
   margin-bottom: 15px;
@@ -134,13 +146,14 @@ nav img {
   align-self: flex-start;
   border-bottom-left-radius: 0;
 }
-.massage-content{
+
+.massage-content {
   display: flex;
   justify-content: space-between;
-   
+  background-color: #1d1d1d;
 }
 
-textarea{
+textarea {
   width: 200px;
   border-radius: 15px;
   display: flex;
