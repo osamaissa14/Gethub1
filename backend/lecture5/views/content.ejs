@@ -1,0 +1,21 @@
+<%- include("partials/header.ejs") %>
+
+<% const names1 = ["Alice", "Bob", "Charlie", "David", "Emma"]; %>
+<% const names2 = ["Olivia", "Liam", "Sophia", "Noah", "Ava"]; %>
+
+<%
+function getRandomName(array) {
+    const randomIndex = Math.floor(Math.random() * array.length);
+    return array[randomIndex];
+}
+
+const randomName1 = getRandomName(names1);
+const randomName2 = getRandomName(names2);
+%>
+
+<h2>Random Name:</h2>
+<span><%= randomName1 %></span><span> </span><span><%= randomName2 %></span>
+
+
+
+<%- include("partials/footer.ejs") %>
